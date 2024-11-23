@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --branco-cinza: #F6F7F8
+}
+
+body{
+    background-color: var(--branco-cinza);
+}
