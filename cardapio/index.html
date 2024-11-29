@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburgueria</title>
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./style/output.css">
@@ -19,7 +21,7 @@
             <span class="text-white font-medium">Rua zxc 10, jales - SP</span>
 
             <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
-                <span class="text-white font-medium">Seg a Dom - 18:00 as 22:00</span>
+                <span class="text-white font-medium">Seg a Dom - 13:00 as 22:00</span>
             </div>
         </div>
     </header>
@@ -37,7 +39,7 @@
                     <p class="text-sm">Um hambúrguer robusto com carne smash crocante, queijo derretido, cebola caramelizada e molho especial em pão brioche tostado.</p>
                     <div  class="flex items-center gap-2 justify-between mt-3">
                         <p>R$: 18,99</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer smash" data-price="18.90">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer 1" data-price="11.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -51,7 +53,7 @@
                     <p class="text-sm">Um hambúrguer robusto com carne smash crocante, queijo derretido, cebola caramelizada e molho especial em pão brioche tostado.</p>
                     <div  class="flex items-center gap-2 justify-between mt-3">
                         <p>R$: 18,99</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer smash" data-price="18.90">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer 2" data-price="12.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -65,7 +67,7 @@
                     <p class="text-sm">Um hambúrguer robusto com carne smash crocante, queijo derretido, cebola caramelizada e molho especial em pão brioche tostado.</p>
                     <div  class="flex items-center gap-2 justify-between mt-3">
                         <p>R$: 18,99</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer smash" data-price="18.90">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer 3" data-price="13.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -79,7 +81,7 @@
                     <p class="text-sm">Um hambúrguer robusto com carne smash crocante, queijo derretido, cebola caramelizada e molho especial em pão brioche tostado.</p>
                     <div  class="flex items-center gap-2 justify-between mt-3">
                         <p>R$: 18,99</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer smash" data-price="18.90">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer 4" data-price="14.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -93,7 +95,7 @@
                     <p class="text-sm">Um hambúrguer robusto com carne smash crocante, queijo derretido, cebola caramelizada e molho especial em pão brioche tostado.</p>
                     <div  class="flex items-center gap-2 justify-between mt-3">
                         <p>R$: 18,99</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer smash" data-price="18.90">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer 5" data-price="15.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -107,24 +109,20 @@
                     <p class="text-sm">Um hambúrguer robusto com carne smash crocante, queijo derretido, cebola caramelizada e molho especial em pão brioche tostado.</p>
                     <div  class="flex items-center gap-2 justify-between mt-3">
                         <p>R$: 18,99</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer smash" data-price="18.90">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer 6" data-price="16.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
                 </div>
             </div>
 
-
-
         </main>
 
-    </div>
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Bebidas</h2>
+        </div>
 
-    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Bebidas</h2>
-
-    <div id="menu">
-
-        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
 
             <div class="flex gap-2">
                 <img src="./assets/coca.jpg" alt="bebida 1" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
@@ -133,7 +131,7 @@
                     <p class="text-sm">Refresque seu dia com nossos refrigerantes: saborosos, variados e perfeitos para qualquer momento!</p>
                     <div  class="flex items-center gap-2 justify-between mt-3">
                         <p>R$: 18,99</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer smash" data-price="18.90">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="bebida 1" data-price="17.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -141,13 +139,13 @@
             </div>
 
             <div class="flex gap-2">
-                <img src="./assets/fantaL.jpg" alt="hamburguer 1" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <img src="./assets/fantaL.jpg" alt="bebida 2" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
                 <div>
                     <p class="font-bold">Refri</p>
                     <p class="text-sm">Refresque seu dia com nossos refrigerantes: saborosos, variados e perfeitos para qualquer momento!</p>
                     <div  class="flex items-center gap-2 justify-between mt-3">
                         <p>R$: 18,99</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer smash" data-price="18.90">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="bebida 2" data-price="18.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -155,13 +153,13 @@
             </div>
 
             <div class="flex gap-2">
-                <img src="./assets/pepsi.jpg" alt="hamburguer 1" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <img src="./assets/pepsi.jpg" alt="bebida 3" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
                 <div>
                     <p class="font-bold">Refri</p>
                     <p class="text-sm">Refresque seu dia com nossos refrigerantes: saborosos, variados e perfeitos para qualquer momento!</p>
                     <div  class="flex items-center gap-2 justify-between mt-3">
                         <p>R$: 18,99</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer smash" data-price="18.90">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="bebida 3" data-price="18.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -169,13 +167,13 @@
             </div>
 
             <div class="flex gap-2">
-                <img src="./assets/pepsiT.jpg" alt="hamburguer 1" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <img src="./assets/pepsiT.jpg" alt="bebida 4" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
                 <div>
                     <p class="font-bold">Refri</p>
                     <p class="text-sm">Refresque seu dia com nossos refrigerantes: saborosos, variados e perfeitos para qualquer momento!</p>
                     <div  class="flex items-center gap-2 justify-between mt-3">
                         <p>R$: 18,99</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer smash" data-price="18.90">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="bebida 4" data-price="20.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -183,32 +181,60 @@
             </div>
             
             <div class="flex gap-2">
-                <img src="./assets/sprite.jpg" alt="hamburguer 1" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+                <img src="./assets/sprite.jpg" alt="bebida 5" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
                 <div>
                     <p class="font-bold">Refri</p>
                     <p class="text-sm">Refresque seu dia com nossos refrigerantes: saborosos, variados e perfeitos para qualquer momento!</p>
                     <div  class="flex items-center gap-2 justify-between mt-3">
                         <p>R$: 18,99</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="hamburguer smash" data-price="18.90">
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="bebida 5" data-price="21.90">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
                 </div>
             </div>
 
+        </div>
 
-        </main>
+
 
     </div>
+
+    
+
+    <!-- Modal -->
+
+    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-{99} items-center justify-center hidden" id="cart-modal">
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+            <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+
+            <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+            <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+            <p class="font-bold mt-4">Endereço de entrega:</p>
+            <input type="text" placeholder="Digite seu endereço completo..." id="address" class="w-full border-2 p-1 rounded my-1">
+            <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
+
+            <div class="flex items-center justify-between mt-5 w-full">
+                <button id="close-modal-btn" class="bg-red-500 text-white px-4 py-1 rounded">Fechar</button>
+                <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar Pedido</button>
+            </div>
+        </div>
+    </div>
+
 
 
     <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
         <button class="flex items-center gap-2 text-white font-bold" id="cart-btn">
-            <span id="cart-count">( 0 )</span>
+            <span>( <span id="cart-count">0</span> )</span>
             Veja meu carrinho
             <i class="fa fa-cart-plus text-lg text-white"></i>
         </button>
     </footer>
 
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
