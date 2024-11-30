@@ -190,7 +190,7 @@ checkoutBtn.addEventListener("click", function(){
 function checkOpen(){
     const date = new Date();
     const hora = date.getHours();
-    return hora >= 14 && hora <= 22;
+    return hora >= 13 && hora <= 22;
 }
 
 
