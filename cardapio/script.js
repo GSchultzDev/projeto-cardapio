@@ -8,6 +8,7 @@ const closeModalBtn = document.getElementById("close-modal-btn")
 const cartCounter = document.getElementById("cart-count")
 const addressInput = document.getElementById("address")
 const addressWarn = document.getElementById("address-warn")
+const descInput = document.getElementById("desc")
 
 let cart = [];
 
@@ -174,7 +175,7 @@ checkoutBtn.addEventListener("click", function(){
     const message = encodeURIComponent(cartitems)
     const phone = "+5517997614034"
 
-    window.open(`https://wa.me/${phone}?text=${message} Endereço ${addressInput.value}`, "_blank")
+    window.open(`https://wa.me/${phone}?text=${message} Endereço ${addressInput.value}, Obs: ${descInput.value}`, "_blank")
 
 
     cart = [];
