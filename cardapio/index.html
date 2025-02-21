@@ -14,6 +14,13 @@
 <body>
     
     <header class="w-full h-[420px] bg-zinc-900 bg-banner bg-cover bg-center">
+        <div class="w-full bg-brigth-red py-3 top-0 z-40 flex items-center justify-end px-5">
+            <button class="flex items-center gap-2 text-white font-bold" onclick="irLogin()">
+                <i class="fa-solid fa-user"></i>
+                Login
+            </button>
+        </div>
+        
         <div class="w-full h-full flex flex-col justify-center items-center">
             <img src="./assets/icone.png" alt="placeholder" class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200">
             <h1 class="text-4xl mt-4 mb-2 font-bold text-white">Hamburgueria</h1>
@@ -228,7 +235,7 @@
 
 
 
-    <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+    <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center invisible" id="footer">
         <button class="flex items-center gap-2 text-white font-bold" id="cart-btn">
             <span>( <span id="cart-count">0</span> )</span>
             Veja meu carrinho
@@ -238,6 +245,6 @@
 
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="script.js"></script>
+    <script src="scriptIndex.js"></script>
 </body>
 </html>

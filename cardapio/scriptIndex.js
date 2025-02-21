@@ -9,6 +9,7 @@ const cartCounter = document.getElementById("cart-count")
 const addressInput = document.getElementById("address")
 const addressWarn = document.getElementById("address-warn")
 const descInput = document.getElementById("desc")
+const footer = document.getElementById("footer")
 
 let cart = [];
 
@@ -56,12 +57,8 @@ function addToCart(name, price){
         
         
     }
-    
-    
 
-updateCartModal()
-
-
+    updateCartModal()
 
 }
 
@@ -99,6 +96,12 @@ function updateCartModal(){
     });
 
     cartCounter.innerHTML = cart.length;
+
+    if(cart.length == "0") {
+        footer.classList.add("invisible");
+    }else{
+        footer.classList.remove("invisible");
+    }
 }
 
 cartItemsContainer.addEventListener("click", function(event) {
@@ -203,4 +206,9 @@ if(isOpen){
 }else {
     spanItem.classList.add("bg-red-500")
     spanItem.classList.remove("bg-green-600")
+}
+
+
+function irLogin() {
+    window.location.href = 'login.html';
 }

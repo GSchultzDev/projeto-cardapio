@@ -1960,6 +1960,17 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity, 1));
 }
 
+.bg-yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-brigth-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 35 35 / var(--tw-bg-opacity, 1));
+}
+
+
 .bg-banner {
   background-image: url('../assets/banner.png');
 }
